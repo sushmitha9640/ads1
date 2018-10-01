@@ -1,2 +1,4 @@
-ghfh
-sgxsjxh
+public class QuickFind
+{
+	private in id[];
+}
