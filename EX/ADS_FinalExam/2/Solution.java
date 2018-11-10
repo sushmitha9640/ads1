@@ -116,10 +116,10 @@ public class Solution {
 				bst.printInBetween(Double.parseDouble(data2[1]),Double.parseDouble(data2[2]));
 				break;
 			case "GE":
-				bst.printGreatest(Double.parseDouble(data2[2]));
+				bst.printGreatest(Double.parseDouble(data2[1]));
 				break;
 			case "LE":
-				bst.printLess(Double.parseDouble(data2[2]));
+				bst.printLess(Double.parseDouble(data2[1]));
 			}
 			j++;
 		}
