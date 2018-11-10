@@ -22,7 +22,7 @@ public class Solution {
 		{
 			String in = input.nextLine();
 			String []data = in.split(",");
-			Stud st = new Stud(data[1],Double.parseDouble(data[2]));
+			Stud st = new Stud(data[1],Double.parseDouble(data[1]));
 			hst.put(Integer.parseInt(data[0]), st);
 			count++;
 		}
